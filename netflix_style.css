@@ -1,0 +1,918 @@
+body{
+    margin: 0px;
+}
+
+.body,.dv,.bar,#initialview,.barans{
+    min-width: 332px;
+}
+
+.bar{
+    user-select: none;
+}
+
+h1,h3,h4{
+    text-align: center;
+    font-size: 4.2rem;
+    font-family: 'Lato', sans-serif;
+    margin: 0px auto;
+    color: white;
+}
+
+h3{
+    font-size: 1.62rem;
+    padding-top: 21px;
+    font-weight: 400;
+}
+
+.initialtext h3{
+    padding-top: 11px;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 27px;
+}
+
+h2,p{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+
+p{
+    font-size: 1.6rem;
+}
+
+.initdv,.dv{
+    width: 100%;
+    background-color: black;
+    border-bottom: 8px solid #222;
+    margin: 0px;
+    padding: 70px 45px;
+    box-sizing: border-box;
+}
+
+#initialview{
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/8ee18735-ada3-45be-b383-a94701054bb9/bffa76da-b175-43bc-b7ef-e47a5095b535/IN-en-20220613-popsignuptwoweeks-perspective_alpha_website_large.jpg), linear-gradient(rgba(0,0,0,0.43),rgba(0,0,0,0.43)),linear-gradient(to bottom,rgba(0,0,0,0.8),rgba(0,0,0,0) 38%), linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0) 55%);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: 0px,-62px;
+    background-clip: padding-box;
+    height: auto;
+}
+
+.headbar{
+    position: relative;
+    top: -48px;
+    left: 10px;
+}
+
+.svg-netflix-logo{
+    width: 10.5rem;
+    fill: red;
+    padding-top: 6px;
+}
+
+.langbox{
+    height: 36px;
+    width: 92px;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    display: inline-block;
+    user-select: none;
+
+}
+
+
+i{
+    display: inline-block;
+}
+
+.globe{
+    position: relative;
+    top: 7.8px;
+    padding-left: 7px;
+    padding-right: 2px;
+}
+
+.lang{
+    position:relative;
+    border: transparent;
+    left:-3px;
+    display: inline-block;
+     appearance: none;
+}
+
+select.langid{
+    position: relative;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    width: 82px;
+    z-index: 2;
+    display: inline-block;
+    top: -20px;
+    left: 8px;
+    height: 38px;
+}
+
+select.langid > option{
+    background-color: rgb(163, 163, 163);
+}
+.drop{
+    position: relative;
+    top: -48px;
+    left: 72px;
+    z-index: 1;
+}
+
+#signin{
+    height: 36px;
+    width: 83px;
+    background-color: rgb(229, 1, 1);
+    padding: 7px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 28px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.initialfrontview{
+    height: auto;
+    max-width: 775px;
+    background-color: transparent;
+    color: white;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 83px;
+}
+
+.initialtext{
+    padding: 2px 65px;
+}
+form{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.emailinput {
+    margin-top: 20px;
+    height: 64px;
+    width: 490px;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid grey;
+    border-radius: 2px;
+}
+
+.submitbutton {
+    background-color: rgb(236, 3, 3);
+    height: 68px;
+    width: 242px;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    border: 1.5px solid red;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+#secondsubmit{
+    top: 5.5px;
+}
+
+.submitbutton:hover{
+    cursor:pointer;
+    background-color:red;
+}
+
+.submitbutton:focus{
+    outline: 2.3px solid rgb(128, 12, 12);
+    border: 1px solid rgb(128, 12, 12);
+    background-color: rgb(207, 1, 1);
+}
+
+svg.arrowsvg{
+    height:21px;
+    width:15px;
+}
+
+.emailinput:focus{
+    border: 1px solid rgb(0, 120, 255);
+}
+
+.emailinput::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.98rem;
+    color:#8c8c8c
+}
+
+.emailinput:focus::placeholder{
+    font-size: 0.8rem;
+    position: relative;
+    top:-20px;
+}
+
+
+#secondsubmit{
+    width: 26.5%;
+}
+
+.dv{
+    height: auto;
+    padding: 60px 40px;
+}
+
+.container,.lastcontainer{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.left, .right{
+    width: 435px;
+    box-sizing: border-box;
+}
+
+#right1{
+    height: 388px;
+}
+
+#right1 > img {
+    height: 360px;
+    width: 468px;
+    position: relative;
+    top: -194px;
+}
+
+div#right1 > video {
+    height: 210px;
+    width: 345px;
+    position: relative;
+    top: 88px;
+    left: 64px;
+}
+
+#left1, #right2, #left3, #right4{
+    padding: 2%;
+}
+
+
+#left2 {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg) no-repeat;
+    background-size: 86%;
+    background-position: center;
+    height: 375px;
+}
+
+
+#left2box {
+    position: relative;
+    top: 246px;
+    margin: auto;
+    height: 100px;
+    max-width: 350px;
+    background-color: black;
+    border: 2px solid rgba(255,255,255,.25);
+    border-radius: 12px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0px 0px 25px 1px black;
+}
+
+#left2boxtext, #left2boximg1, #left2boximg2{
+    display: inline-block;
+    width: 32.51%;
+}
+#left2boximg1 {
+    height: 86%;
+    width: 20%;
+    padding: 5px 10px;
+}
+
+#left2boxtext {
+    width: 44%;
+    position: relative;
+    top: -39px;
+}
+
+#left2boximg2 {
+    position: relative;
+    left: 23px;
+    top: -17px;
+    height: 56%;
+    width: 17%;
+}
+
+
+#left3,#right3{
+    height: 345px;
+}
+
+div#right3 > img {
+    width: 470px;
+    position: relative;
+    top: -212px;
+    pointer-events: none;
+}
+
+div#right3 video {
+    height: 160px;
+    width: 280px;
+    position: relative;
+    top: -11px;
+    left: 93px;
+}
+
+#left4{
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/cards/kidsValueProp.png) no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 345px;
+}
+
+#dv5{
+    height: 940px;
+}
+
+div#dv5 h2{
+    text-align: center;
+    font-size: 52px;
+    margin: 0px;
+    padding-bottom: 45px;
+}
+
+.bar{
+    width: 815px;
+    height: 74px;
+    background-color: #303030;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+div.bar > h3{
+    text-align: start;
+    margin: 10px 70px 10px 30px;
+    font-weight: 100;
+    font-size: 1.7rem;
+    font-family: sans-serif;
+}
+
+.baricon{
+    position: relative;
+    top: -49px;
+    left: -26px;
+    float: right;
+    font-size: 48px;
+    user-select: none;
+}
+
+#underbar{
+    text-align: center;
+    padding-top: 64px;
+}
+
+.emailbar{
+    position: relative;
+    left: -80px;
+}
+
+#footertoptext{
+    margin:auto;
+    width: 856px;
+    color:#757575;
+    font-size: large;
+}
+
+#footerbottomtext{
+    color:#757575;
+    font-size:small;
+    font-family: 'Lato', sans-serif;
+    margin-top: 20px;
+}
+
+#footertoptext >a{
+    text-decoration: none;
+    color:#757575;
+    font-size:18px;
+}
+#footertoptext > a:hover{
+    text-decoration: underline;
+}
+
+
+#dv6 .langbox{
+    height: 55px;
+    width: 124px;
+    background-color: #000;
+    overflow: hidden;
+    border: 1px solid #333;
+    border-radius: 3px;
+    outline: none;
+    box-sizing: border-box;
+    margin-top:28px;
+}
+
+#dv6 .globe{
+position: relative;
+    top: 16.8px;
+    padding-left: 7px;
+    padding-right: 2px;
+}
+
+#dv6 select#langid{
+position: relative;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    width: 124px;
+    z-index: 2;
+    display: inline-block;
+    top: -19px;
+    left: -1px;
+    height: 53px;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #999;
+}
+
+#dv6 .drop{
+    position: relative;
+    top: -55px;
+    left: 96px;
+    z-index: 1;
+}
+
+
+#dv6 select#langid > option{
+    background-color: black;
+}
+
+.footerflexcontainer{
+    margin: auto;
+    margin-top: 10px;
+    max-width: 950px;
+    padding-left: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerflexbox{
+    width: 233px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.footerflexbox > a{
+    display: block;
+    width: inherit;
+    text-decoration: none;
+    color: #757575;
+    font-size: 13.3px;
+}
+
+.footerflexbox > a:hover{
+    text-decoration: underline;
+}
+
+#dv6{
+    border-bottom: none;
+}
+
+
+.barans{
+    margin: auto;
+    padding: 20px 30px;
+    width: 815px;
+    background-color: #303030;
+    border-color: black;
+    color: white;
+    font-size:1.7rem;
+    font-family: sans-serif;
+    transition-property: max-height;
+    transition-duration: 0.07s;
+    transition-delay: 0s;
+    max-height: 0px;
+    /* display: none; */
+    overflow-y:clip;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+}
+
+#dv5{
+    height: auto;
+}
+
+
+#errormessage1,#errormessage2{
+    font-family: 'Lato', sans-serif;
+    color: #ffa00a;
+    font-size: 14px;
+    padding-top: 5px;
+    display: none;
+}
+
+
+#secondform{
+    position: relative;
+    left:80px;
+}
+
+
+#dv2 .container, #dv4 .container{
+    flex-direction: row-reverse;
+}
+
+
+.langboxline{
+    width: 856px;
+    margin:auto;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width:1448px){
+    h1{
+        font-size: 3.3rem;
+    }
+    .initialfrontview {
+        height: auto;
+        max-width: 680px;
+    }
+    .initialtext {
+        padding: 2px 10px;
+    }
+    .emailinput{
+        width: 432px;
+    }
+}
+@media only screen and (max-width:810px){
+    h1{
+        font-size: 2rem;
+    }
+    /* .initialfrontview {
+        height: auto;
+        max-width: 740px;
+    } */
+}
+
+@media only screen and (max-width:550px){
+    h1{
+        font-size: 1.75rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    h4{
+        font-size: 1.2rem;
+    }
+    .initialtext {
+        padding: 2px 0px;
+    }
+    .svg-netflix-logo {
+        width: 5.5rem;
+        fill: red;
+        padding-top: 6px;
+        position: relative;
+        left: -30px;
+    }
+    .langbox {
+        height: 30px;
+        width: 86px;
+        position: relative;
+        top: -6px;
+    }
+    .emailinput {
+        height: 44px;
+        width: 90vw;
+    }
+    .emailinput:focus::placeholder{
+        font-size: 0.7rem;
+        position: relative;
+        top:-12px;
+    }
+    .submitbutton{
+        height: 43px;
+        width: 139px;
+        font-size: 16px;
+        border-radius: 2.85px;
+    }
+    svg.arrowsvg {
+        height: 12px;
+        width: 8px;
+    }
+    .initialfrontview {
+        margin-top: 42px;
+        margin-bottom: 10px;
+    }
+    #signin {
+        margin-left: 8px;
+        height: 25px;
+        width: 56px;
+        font-size: 13px;
+        padding: 5px 8px;
+        position: relative;
+        top:-11px
+    }
+    .globe {
+        position: relative;
+        top: 3.8px;
+    }
+    
+    select.langid {
+        position: relative;
+        top: -23px;
+    }
+    
+    .drop {
+        position: relative;
+        top: -52px;
+    }
+}
+
+
+@media only screen and (max-width:1176px){
+    .bar,.barans{
+        width:74.5%;
+    }
+}
+@media only screen and (max-width:948px){
+    .bar{
+        width:90%;
+        height: 57px;
+    }
+    .barans{
+        width: 90%;
+    }
+    div.bar > h3, .barans{
+        font-size: 1.25rem;
+    }
+}
+@media only screen and (max-width:548px){
+    .bar,.barans{
+        width:100%;
+        font-size: 1.15rem;
+    }
+    .baricon{
+        font-size: 40px;
+    }
+    #dv5{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (min-width:1073px) {
+    #footertoptext{
+        width: 900px;
+    }
+    .langboxline{
+        width: 900px;
+    }
+}
+
+@media only screen and (max-width:1072px) and  (min-width:940px){
+    .footerflexbox{
+        width: 188px;
+    }
+    #footertoptext,.langboxline{
+        margin-left: 4.5vw;
+    }
+
+}
+
+@media only screen and (max-width:950px){
+    #left1,#right2,#left3,#right4{
+        width: 100%;
+    }
+    #footertoptext,.langboxline{
+        margin-left: 49px;
+        width: auto;
+    }
+    h2{
+        font-size: 2.5rem;;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width:939px){
+    .footerflexbox{
+        width: 160px;
+    }
+    #footertoptext,.langboxline{
+        margin-left: 49px;
+        width: auto;
+    }
+}
+@media only screen and (max-width:620px){
+    .footerflexbox{
+        width: 115px;
+        padding-left: 5px;
+    }
+}
+@media only screen and (max-width:500px){
+
+    .footerflexbox{
+        /* width: 115px; */
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #footertoptext,.langboxline{
+        margin-left: 63px;
+        width: auto;
+    }
+    #right1 > img{
+        height: 76vw;
+        width: 94vw;
+        position: relative;
+        top: -40vw;
+        /* user-select: none; */
+    }
+    
+    div#right1 > video{
+        height: 42vw;
+        width: 72vw;
+        position: relative;
+        top: 18vw;
+        left: 13vw;
+        /* left: 71px; */
+    }
+
+    div#right3 > video {
+        height: 37vw;
+        width: 61vw;
+        position: relative;
+        top: 5vw;
+        left: 19.5vw;
+        /* left: 71px; */
+    }
+    
+    
+    
+    div#right3 > img {
+        height: 76vw;
+        width: 100vw;
+        position: relative;
+        top: -40vw;
+        /* user-select: none; */
+    }
+}
+@media only screen and (max-width:429px){
+    /* .footerflexbox{
+        width: 115px;
+        padding-left: 0px;
+    } */
+    .footerflexcontainer{
+        margin-left: 5px;
+        padding-left: 0px;
+    }
+    #footertoptext,.langboxline{
+        margin-left: 20px;
+        width: auto;
+    }
+}
+@media only screen and (max-width:385px){
+    .footerflexbox{
+        width: 80px;
+    }
+    .footerflexcontainer{
+        margin-left: 5px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+div.bar > h3 {
+    font-size: 1.1rem;
+}
+}
+
+
+@media only screen and (max-width:950px){
+    h2,p{
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:950px){
+    .dv{
+        padding:0px 40px 55px 40px;
+    }
+    #dv6{
+        padding-top: 80px;
+    }
+    div#dv5 h2{
+        font-size: 2.5rem;
+    }
+    #dv5{
+        padding-top: 40px;
+    }
+}
+@media only screen and (max-width:548px){
+    h2{
+        font-size: 1.8rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    div#dv5 h2{
+        font-size: 1.75rem;
+    }
+    #right1{
+        height: 79vw;
+    }
+    #left3{
+        height: auto;
+    }
+
+    #left2 {
+        background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg) no-repeat;
+        background-size: 87%;
+        background-position: center;
+        height: 216px;
+    }
+    #left2box{
+        position: relative;
+        top: 143px;
+        margin: auto;
+        height: 76px;
+        max-width: 316px;
+    }
+    
+    #left2boximg2 {
+        position: relative;
+        left: 15px;
+        top: -13px;
+        height: 66%;
+        width: 17%;
+    }
+    #left2boxtext{
+        top: -34px;
+    }
+}
+@media only screen and (max-width:392px){
+   #right3{
+    height: 69vw;;
+   }
+   #left4{
+    height: 69vw;;
+   }
+}
+
+@media only screen and (min-width:422px) and (max-width:500px){
+    .left,.right{
+        width: 487px;
+    }
+}
+
+@media only screen and (min-width:1218px){
+    .left,.right{
+        width: 563px;
+    }
+    #right3,#right1{
+        padding-left: 50px;
+    }
+}
+
+#langandsign{
+    float: right;
+    position: relative;
+    left: -20px;
+    top: 6px;
+}
+
+@media only screen and (max-width:430px){
+    #langandsign{
+        position: relative;
+        left: 0px;
+    }
+}
